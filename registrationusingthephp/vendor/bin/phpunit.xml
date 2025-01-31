@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Course Registration System Tests">
+            <directory>C:\Users\hlina\Desktop\registrationusingthephp\Test</directory>  </testsuite>
+    </testsuites>
+    <php>
+        <env name="DB_CONNECTION" value="mysql"/>
+        <env name="DB_HOST" value="localhost"/>
+        <env name="DB_DATABASE" value="test_course_registration"/>
+        <!-- <env name="DB_USERNAME" value="your_test_db_user"/>
+        <env name="DB_PASSWORD" value="your_test_db_password"/> -->
+    </php>
+</phpunit>
