@@ -3,6 +3,7 @@
 use PHPUnit\Framework\TestCase;
 use Stripe\Stripe;
 use Stripe\Charge;
+require 'vendor/autoload.php';
 
 class PaymentTest extends TestCase {
     public function testStripePayment() {
